@@ -1,0 +1,11 @@
+[Unit]
+Description=Strapi CMS Backend
+
+[Service]
+Type=simple
+User=nathan
+WorkingDirectory=/home/nathan/kent/IoT/Kent-IoT/
+ExecStart=/home/nathan/kent/IoT/Kent-IoT/start.sh
+
+[Install]
+WantedBy=multi-user.target
