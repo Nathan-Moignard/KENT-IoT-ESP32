@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sensors",
+  "info": {
+    "singularName": "sensor",
+    "pluralName": "sensors",
+    "displayName": "sensor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "temperature": {
+      "required": true,
+      "type": "integer"
+    },
+    "humidity": {
+      "type": "integer",
+      "required": true
+    },
+    "heatIndex": {
+      "type": "integer",
+      "required": true
+    },
+    "sensorID": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
